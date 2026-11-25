@@ -1,0 +1,28 @@
+test_casos (__main__.TestCodificacion.test_casos) ... ok
+test_branch_fuera_de_alcance (__main__.TestErrores.test_branch_fuera_de_alcance) ... ok
+test_etiqueta_indefinida_y_duplicada (__main__.TestErrores.test_etiqueta_indefinida_y_duplicada) ... ok
+test_inmediato_fuera_de_rango (__main__.TestErrores.test_inmediato_fuera_de_rango) ... ok
+test_mnemonico_y_operandos (__main__.TestErrores.test_mnemonico_y_operandos) ... ok
+test_registro_rv32e (__main__.TestErrores.test_registro_rv32e) ... ok
+test_tamano_ram (__main__.TestErrores.test_tamano_ram) ... ok
+test_branch_adelante_y_atras (__main__.TestEtiquetasYPseudo.test_branch_adelante_y_atras) ... ok
+test_equ_expresiones_y_define (__main__.TestEtiquetasYPseudo.test_equ_expresiones_y_define) ... ok
+test_etiqueta_y_instruccion_misma_linea (__main__.TestEtiquetasYPseudo.test_etiqueta_y_instruccion_misma_linea) ... ok
+test_jal_y_j (__main__.TestEtiquetasYPseudo.test_jal_y_j) ... ok
+test_li_corto_y_largo (__main__.TestEtiquetasYPseudo.test_li_corto_y_largo) ... ok
+test_word (__main__.TestEtiquetasYPseudo.test_word) ... ok
+test_analisis_de_accesos (__main__.TestGeneracionASIC.test_analisis_de_accesos) ... ok
+test_init_palabra0_en_bits_bajos (__main__.TestGeneracionASIC.test_init_palabra0_en_bits_bajos) ... /mnt/data/p4opt/Proyecto4_Trader_Grupo7-main/tools/test_rvasm.py:161: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmposw9yoix/mem.vh' mode='r' encoding='utf-8'>
+  txt = open(p).read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_rom_contiene_cada_palabra (__main__.TestGeneracionASIC.test_rom_contiene_cada_palabra) ... /mnt/data/p4opt/Proyecto4_Trader_Grupo7-main/tools/test_rvasm.py:152: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp6lmoxb_5/rom.v' mode='r' encoding='utf-8'>
+  txt = open(p).read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_ejemplos_del_repo (__main__.TestReferencia.test_ejemplos_del_repo) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.009s
+
+OK

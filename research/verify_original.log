@@ -1,0 +1,3 @@
+practica.csv 20000 decisiones iguales; IC max PRICE->DECISION 868 max entre decisiones (incluye inicio) 882
+practica_meta.csv 20000 decisiones iguales; IC max PRICE->DECISION 845 max entre decisiones (incluye inicio) 859
+peor_caso.csv 199 decisiones iguales; IC max PRICE->DECISION 861 max entre decisiones (incluye inicio) 875

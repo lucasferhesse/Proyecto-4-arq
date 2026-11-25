@@ -1,0 +1,4 @@
+mkdir -p sim/out
+iverilog -g2012 -s tb_proyecto_4 -o sim/out/tb_p4 /ice40/cells_sim.v rtl/pochoco_cycle_counter.v rtl/pochoco_mem_bram.v rtl/pochoco_periph.v rtl/pochoco_soc.v rtl/pochoco_spi_slave.v rtl/espino_core/espino_alu.v rtl/espino_core/espino_controller.v rtl/espino_core/espino_core.v rtl/espino_core/espino_decoder.v rtl/espino_core/espino_id_stage.v rtl/espino_core/espino_if_stage.v rtl/espino_core/espino_load_store_unit.v rtl/espino_core/espino_register_file.v tb/tb_proyecto_4.sv
+make: iverilog: No such file or directory
+make: *** [Makefile:86: tb] Error 127
